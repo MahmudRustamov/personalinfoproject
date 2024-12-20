@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal information</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <br>
+    <h1>Kontakt Ma'lumotlarini Yuborish</h1>
+    <form action="">
+        <label for="phone">Telefon raqamingiz:</label>
+        <br>
+        <input type="number" id="telefon" placeholder="Raqamingizni kiriting" minlength="9" maxlength="13"  required>
+        <br>
+        <br>
+        <label for="address">Manzilingiz:</label>
+        <br>
+        <input type="text" id="manzil" placeholder="Manzilni kiriting" style=" height: 35px; font-size: 14px;">
+        <br><br>
+        <label for="xabar">Xabar</label>
+        <br>
+        <textarea id="manzil" placeholder="Xabaringizni bu yerda qoldiring" 
+        style="width: 20%; height: 70px; font-size: 13px; padding: 3px; text-align: left;"></textarea><br><br>
+        <label for="contact">Siz bilan qanday bog'lanishimizni xohlaysiz?</label>
+        <br>
+        <select name="contact" id="aloqa" style=" height: 25px; font-size: 12px; padding: 3px;"">
+            <option value="Email">Email bilan</option>
+            <option value="Phone">Telefon orqali</option>
+            <option value="SMS">SMS orqali</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Xabarni yuborish">
+        <input type="reset" value="Tozalash">
+    </form>
+</body>
+</html>
